@@ -19,12 +19,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\Scorecard.Applicatioin\Scorecard.Applicatioin.csproj" />
+    <ProjectReference Include="..\Scorecard.Business\Scorecard.Business.csproj" />
     <ProjectReference Include="..\Scorecard.Core\Scorecard.Core.csproj" />
     <ProjectReference Include="..\Scorecard.Data\Scorecard.Data.csproj" />
+    <ProjectReference Include="..\Scorecard.QueryHandler\Scorecard.QueryHandler.csproj" />
+    <ProjectReference Include="..\Scorecard.Validators\Scorecard.Validators.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,17 @@
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Validators\bin\Debug\net7.0\Scorecard.Validators.deps.json
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Validators\bin\Debug\net7.0\Scorecard.Validators.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Validators\bin\Debug\net7.0\Scorecard.Validators.pdb
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Validators\bin\Debug\net7.0\Scorecard.Applicatioin.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Validators\bin\Debug\net7.0\Scorecard.Core.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Validators\bin\Debug\net7.0\Scorecard.Core.pdb
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Validators\bin\Debug\net7.0\Scorecard.Applicatioin.pdb
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Validators\obj\Debug\net7.0\Scorecard.Validators.csproj.AssemblyReference.cache
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Validators\obj\Debug\net7.0\Scorecard.Validators.GeneratedMSBuildEditorConfig.editorconfig
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Validators\obj\Debug\net7.0\Scorecard.Validators.AssemblyInfoInputs.cache
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Validators\obj\Debug\net7.0\Scorecard.Validators.AssemblyInfo.cs
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Validators\obj\Debug\net7.0\Scorecard.Validators.csproj.CoreCompileInputs.cache
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Validators\obj\Debug\net7.0\Scorecard.Validators.csproj.CopyComplete
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Validators\obj\Debug\net7.0\Scorecard.Validators.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Validators\obj\Debug\net7.0\refint\Scorecard.Validators.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Validators\obj\Debug\net7.0\Scorecard.Validators.pdb
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Validators\obj\Debug\net7.0\ref\Scorecard.Validators.dll

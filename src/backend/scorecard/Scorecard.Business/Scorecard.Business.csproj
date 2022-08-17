@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Scorecard.Core\Scorecard.Core.csproj" />
+    <ProjectReference Include="..\Scorecard.Data\Scorecard.Data.csproj" />
+  </ItemGroup>
+
+</Project>
