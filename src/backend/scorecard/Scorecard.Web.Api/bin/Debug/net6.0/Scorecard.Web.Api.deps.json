@@ -12,8 +12,10 @@
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.15.1",
           "Scorecard.Applicatioin": "1.0.0",
           "Scorecard.Business": "1.0.0",
+          "Scorecard.CommandHandler": "1.0.0",
           "Scorecard.Core": "1.0.0",
           "Scorecard.Data": "1.0.0",
+          "Scorecard.MemoryCache": "1.0.0",
           "Scorecard.QueryHandler": "1.0.0",
           "Scorecard.Validators": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3",
@@ -1420,6 +1422,14 @@
           "Scorecard.Business.dll": {}
         }
       },
+      "Scorecard.CommandHandler/1.0.0": {
+        "dependencies": {
+          "Scorecard.Core": "1.0.0"
+        },
+        "runtime": {
+          "Scorecard.CommandHandler.dll": {}
+        }
+      },
       "Scorecard.Core/1.0.0": {
         "dependencies": {
           "Autofac": "6.4.0",
@@ -1444,6 +1454,14 @@
         },
         "runtime": {
           "Scorecard.Data.dll": {}
+        }
+      },
+      "Scorecard.MemoryCache/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "3.0.0"
+        },
+        "runtime": {
+          "Scorecard.MemoryCache.dll": {}
         }
       },
       "Scorecard.QueryHandler/1.0.0": {
@@ -2468,12 +2486,22 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Scorecard.CommandHandler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Scorecard.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "Scorecard.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Scorecard.MemoryCache/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

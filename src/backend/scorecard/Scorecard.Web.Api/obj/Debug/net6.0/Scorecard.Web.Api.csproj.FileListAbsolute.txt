@@ -98,7 +98,6 @@ F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Web.Api\obj\Debug\net6.0\
 F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Web.Api\obj\Debug\net6.0\Scorecard.Web.Api.AssemblyInfoInputs.cache
 F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Web.Api\obj\Debug\net6.0\Scorecard.Web.Api.AssemblyInfo.cs
 F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Web.Api\obj\Debug\net6.0\Scorecard.Web.Api.csproj.CoreCompileInputs.cache
-F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Web.Api\obj\Debug\net6.0\Scorecard.Web.Api.MvcApplicationPartsAssemblyInfo.cs
 F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Web.Api\obj\Debug\net6.0\Scorecard.Web.Api.MvcApplicationPartsAssemblyInfo.cache
 F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Web.Api\obj\Debug\net6.0\staticwebassets.build.json
 F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Web.Api\obj\Debug\net6.0\staticwebassets.development.json
@@ -110,3 +109,8 @@ F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Web.Api\obj\Debug\net6.0\
 F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Web.Api\obj\Debug\net6.0\Scorecard.Web.Api.genruntimeconfig.cache
 F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Web.Api\obj\Debug\net6.0\ref\Scorecard.Web.Api.dll
 F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Web.Api\bin\Debug\net6.0\Scorecard.Management.xml
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Web.Api\bin\Debug\net6.0\Scorecard.CommandHandler.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Web.Api\bin\Debug\net6.0\Scorecard.CommandHandler.pdb
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Web.Api\bin\Debug\net6.0\Scorecard.MemoryCache.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Web.Api\bin\Debug\net6.0\Scorecard.MemoryCache.pdb
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Web.Api\obj\Debug\net6.0\Scorecard.Web.Api.MvcApplicationPartsAssemblyInfo.cs

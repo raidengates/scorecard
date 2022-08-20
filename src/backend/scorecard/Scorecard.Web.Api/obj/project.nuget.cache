@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qY94+N2HxtiwNySf+H4nHvJOzuZdUb8UMArB5EVi+cKte/s43+1VyyO8SvMqLNngZLx8a3nizmD92sfdGxGdwg==",
+  "dgSpecHash": "inAb17TvQnWacuFooEaRX5/UVo1hOoX3CF3gc/7pCGB/8ajNaZIgjzfmyaqwDswOEWVEOfj5xChCWX6kP58Txg==",
   "success": true,
   "projectFilePath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Web.Api\\Scorecard.Web.Api.csproj",
   "expectedPackageFiles": [

@@ -2079,6 +2079,19 @@
           "bin/placeholder/Scorecard.Business.dll": {}
         }
       },
+      "Scorecard.CommandHandler/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Scorecard.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Scorecard.CommandHandler.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Scorecard.CommandHandler.dll": {}
+        }
+      },
       "Scorecard.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2113,6 +2126,19 @@
         },
         "runtime": {
           "bin/placeholder/Scorecard.Data.dll": {}
+        }
+      },
+      "Scorecard.MemoryCache/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "3.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Scorecard.MemoryCache.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Scorecard.MemoryCache.dll": {}
         }
       },
       "Scorecard.QueryHandler/1.0.0": {
@@ -7303,6 +7329,11 @@
       "path": "../Scorecard.Business/Scorecard.Business.csproj",
       "msbuildProject": "../Scorecard.Business/Scorecard.Business.csproj"
     },
+    "Scorecard.CommandHandler/1.0.0": {
+      "type": "project",
+      "path": "../Scorecard.CommandHandler/Scorecard.CommandHandler.csproj",
+      "msbuildProject": "../Scorecard.CommandHandler/Scorecard.CommandHandler.csproj"
+    },
     "Scorecard.Core/1.0.0": {
       "type": "project",
       "path": "../Scorecard.Core/Scorecard.Core.csproj",
@@ -7312,6 +7343,11 @@
       "type": "project",
       "path": "../Scorecard.Data/Scorecard.Data.csproj",
       "msbuildProject": "../Scorecard.Data/Scorecard.Data.csproj"
+    },
+    "Scorecard.MemoryCache/1.0.0": {
+      "type": "project",
+      "path": "../ReverseProxy.MemoryCache/Scorecard.MemoryCache.csproj",
+      "msbuildProject": "../ReverseProxy.MemoryCache/Scorecard.MemoryCache.csproj"
     },
     "Scorecard.QueryHandler/1.0.0": {
       "type": "project",
@@ -7330,8 +7366,10 @@
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.15.1",
       "Scorecard.Applicatioin >= 1.0.0",
       "Scorecard.Business >= 1.0.0",
+      "Scorecard.CommandHandler >= 1.0.0",
       "Scorecard.Core >= 1.0.0",
       "Scorecard.Data >= 1.0.0",
+      "Scorecard.MemoryCache >= 1.0.0",
       "Scorecard.QueryHandler >= 1.0.0",
       "Scorecard.Validators >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3",
@@ -7372,11 +7410,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\ReverseProxy.MemoryCache\\Scorecard.MemoryCache.csproj": {
+              "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\ReverseProxy.MemoryCache\\Scorecard.MemoryCache.csproj"
+            },
             "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj": {
               "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj"
             },
             "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Business\\Scorecard.Business.csproj": {
               "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Business\\Scorecard.Business.csproj"
+            },
+            "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.CommandHandler\\Scorecard.CommandHandler.csproj": {
+              "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.CommandHandler\\Scorecard.CommandHandler.csproj"
             },
             "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj": {
               "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj"

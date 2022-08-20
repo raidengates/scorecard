@@ -15,7 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scorecard.Business", "Score
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scorecard.Validators", "Scorecard.Validators\Scorecard.Validators.csproj", "{7239DD1E-E895-46A6-BE61-3F06660DE725}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scorecard.Web.Api", "Scorecard.Web.Api\Scorecard.Web.Api.csproj", "{0CE69999-0F7F-4ECA-9B0F-8946EE9151B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scorecard.Web.Api", "Scorecard.Web.Api\Scorecard.Web.Api.csproj", "{0CE69999-0F7F-4ECA-9B0F-8946EE9151B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scorecard.CommandHandler", "Scorecard.CommandHandler\Scorecard.CommandHandler.csproj", "{921C176B-655C-474D-BA7C-7FEBBA48746C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Handler", "Handler", "{E9C2A01B-9F26-4216-9CE9-BA2F5EE53286}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scorecard.MemoryCache", "ReverseProxy.MemoryCache\Scorecard.MemoryCache.csproj", "{9607D4CC-48A2-4EC1-98C5-E89246F8689A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,9 +57,21 @@ Global
 		{0CE69999-0F7F-4ECA-9B0F-8946EE9151B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CE69999-0F7F-4ECA-9B0F-8946EE9151B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CE69999-0F7F-4ECA-9B0F-8946EE9151B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{921C176B-655C-474D-BA7C-7FEBBA48746C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{921C176B-655C-474D-BA7C-7FEBBA48746C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{921C176B-655C-474D-BA7C-7FEBBA48746C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{921C176B-655C-474D-BA7C-7FEBBA48746C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9607D4CC-48A2-4EC1-98C5-E89246F8689A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9607D4CC-48A2-4EC1-98C5-E89246F8689A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9607D4CC-48A2-4EC1-98C5-E89246F8689A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9607D4CC-48A2-4EC1-98C5-E89246F8689A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA3A9E30-3D59-4A7E-8460-8A48C5AC4F10} = {E9C2A01B-9F26-4216-9CE9-BA2F5EE53286}
+		{921C176B-655C-474D-BA7C-7FEBBA48746C} = {E9C2A01B-9F26-4216-9CE9-BA2F5EE53286}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3D79A2E7-C40E-4925-B609-5FCE86C846EE}

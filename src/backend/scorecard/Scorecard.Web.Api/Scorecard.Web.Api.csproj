@@ -17,8 +17,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ReverseProxy.MemoryCache\Scorecard.MemoryCache.csproj" />
     <ProjectReference Include="..\Scorecard.Applicatioin\Scorecard.Applicatioin.csproj" />
     <ProjectReference Include="..\Scorecard.Business\Scorecard.Business.csproj" />
+    <ProjectReference Include="..\Scorecard.CommandHandler\Scorecard.CommandHandler.csproj" />
     <ProjectReference Include="..\Scorecard.Core\Scorecard.Core.csproj" />
     <ProjectReference Include="..\Scorecard.Data\Scorecard.Data.csproj" />
     <ProjectReference Include="..\Scorecard.QueryHandler\Scorecard.QueryHandler.csproj" />

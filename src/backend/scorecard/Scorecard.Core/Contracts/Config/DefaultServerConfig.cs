@@ -9,6 +9,15 @@
         public ApiOptions Api { get; set; }
 
     }
+
+    public class ScorecardConfig
+    {
+        public JWTOptions JWT { get; set; }
+
+        public Account[] Accounts { get; set; }
+
+    }
+
     public class ApiOptions
     {
         public JWTOptions JWT { get; set; }

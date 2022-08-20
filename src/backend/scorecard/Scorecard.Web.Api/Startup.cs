@@ -1,7 +1,12 @@
 ﻿using Kledex.Extensions;
 using Kledex.Store.EF.InMemory.Extensions;
+using Scorecard.CommandHandler;
+using Scorecard.Core.Contracts.Config;
 using Scorecard.QueryHandler;
+using Scorecard.Web.Api.Exceptions;
 using Scorecard.Web.Api.Extensions;
+using Scorecard.Web.Api.Middleware;
+using ServiceStack.Configuration;
 
 namespace Scorecard.Web.Api
 {
@@ -23,12 +28,14 @@ namespace Scorecard.Web.Api
             services.AddMemoryCache();
             services.AddDistributedMemoryCache();
             services.AddControllers();
+            services.Configure<AppSettings>(_configuration.GetSection("Scorecard"));
+            services.Configure<DefaultServerConfig>(_configuration);
             services.AddSwaggerDocumentation();
-            //services.LoadFromApi();
+            services.LoadFromApi();
             services.LoadFromServerEx();
-            services.AddKledex(typeof(HandlerBootstrapper)).AddInMemoryStore();
+            services.AddKledex(typeof(QueryHandlerBootstrapper), typeof(CommandHandlerBootstrapper)).AddInMemoryStore();
         }
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILogger<Startup> logger)
         {
             app.UseCors("MyPolicy");
             if (env.IsDevelopment())
@@ -37,12 +44,20 @@ namespace Scorecard.Web.Api
             }
             app.UseSwaggerDocumentation();
             app.UseRouting();
-            // --------------------- Custom UI ----------------
+            
             app.UseStaticFiles();
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseKledex();
             app.UseHttpsRedirection();
+            // --------------------- Custom Exception ----------------
+            app.ExceptionConfiguration(logger);
+            // --------------------- Custom Middleware ----------------
+            app.UseMiddleware<RequestLoggingMiddleware>();
+            app.UseMiddleware<CacheMiddleware>();
+            app.UseMiddleware<JwtMiddleware>();
+
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

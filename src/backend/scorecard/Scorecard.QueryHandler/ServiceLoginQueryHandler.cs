@@ -20,10 +20,10 @@ namespace Scorecard.QueryHandler
             _userBusiness = userBusiness;
             _serviceLoginValidator = serviceLoginValidator;
         }
-        public Task<ServiceLoginResult> HandleAsync(ServiceLoginQuery query)
+        public async Task<ServiceLoginResult> HandleAsync(ServiceLoginQuery query)
         {
             _serviceLoginValidator.ValidateQuery(query);
-            throw new NotImplementedException();
+            return await _userBusiness.Login(query);
         }
     }
 }

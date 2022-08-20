@@ -1,8 +1,9 @@
 ﻿using Kledex;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Scorecard.Applicatioin.Command;
 using Scorecard.Applicatioin.Queries;
 using Scorecard.Applicatioin.Results;
+using Scorecard.Core.Exceptions;
 using System.Net;
 
 namespace Scorecard.Controllers
@@ -35,6 +36,14 @@ namespace Scorecard.Controllers
             });
         }
 
-
+        [HttpPost]
+        [Route("signup")]
+        [ProducesResponseType(typeof(FileResult), (int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(string), (int)HttpStatusCode.BadRequest)]
+        public async Task<IActionResult> Signup([FromBody] SignupCommand request)
+        {
+            var result = await _dispatcher.SendAsync<List<FieldError>>(request);
+            return Ok(result);
+        }
     }
 }

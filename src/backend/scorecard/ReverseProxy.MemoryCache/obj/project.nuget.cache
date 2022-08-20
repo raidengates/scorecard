@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "aCfZuon+Sg8IUSTbqfRAUbhAZ7s8FMQJsMrWJgVR3C+VSfZmM81MwXsKt0dKoxC+a1Q9oYEaQQXvRHSIjnqj+w==",
+  "success": true,
+  "projectFilePath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\ReverseProxy.MemoryCache\\Scorecard.MemoryCache.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\graid\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.0.0\\microsoft.extensions.caching.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\graid\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.0\\microsoft.extensions.primitives.3.0.0.nupkg.sha512",
+    "C:\\Users\\graid\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.4\\microsoft.aspnetcore.app.ref.6.0.4.nupkg.sha512",
+    "C:\\Users\\graid\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.4\\microsoft.windowsdesktop.app.ref.6.0.4.nupkg.sha512",
+    "C:\\Users\\graid\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.4\\microsoft.netcore.app.ref.6.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

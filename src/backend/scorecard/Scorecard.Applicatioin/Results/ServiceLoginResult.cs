@@ -15,5 +15,4 @@ namespace Scorecard.Applicatioin.Results
         public string refresh_token_expires_in { get; set; }
         public string id_token { get; set; }
     }
-
 }

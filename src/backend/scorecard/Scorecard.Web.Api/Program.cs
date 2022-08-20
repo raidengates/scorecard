@@ -1,21 +1,23 @@
-
-
-
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using Scorecard.Applicatioin.Security;
 using Scorecard.Business;
 using Scorecard.Core.DependencyInjection;
 using Scorecard.Data;
 using Scorecard.Data.Context;
 using Scorecard.Data.Interfaces;
 using Scorecard.Data.Repository;
+using Scorecard.MemoryCache;
+using Scorecard.MemoryCache.Contracts;
+using Scorecard.MemoryCache.UserCache;
 
 namespace Scorecard.Web.Api;
 public class Program
 {
     public static void Main(string[] args)
     {
-        CreateHostBuilder(args).Build().Run();
+        CreateHostBuilder(args)
+            .Build().Run();
     }
 
     public static IHostBuilder CreateHostBuilder(string[] args) =>
@@ -35,6 +37,9 @@ public class Program
                 container.RegisterPerLifetime<IUserRepository, UserRepository>();
                 container.RegisterPerLifetime<IUserRepository, UserRepository>();
 
+                //Cache
+                container.RegisterPerLifetime<IUserStore<ScorecardIdentity>, UserStore<ScorecardIdentity>>();
+                container.RegisterPerLifetime<ICache, Cache>();
                 //container.RegisterInstance<IOptionsMonitor<DefaultServerConfig>>();
                 new Scorecard.Validators.AdValidatorBootstrapper(container).WireUp();
                 new AdBusinessBootstrapper(container).WireUp();
@@ -53,10 +58,6 @@ public class Program
                           .AddJsonFile($"config/appsettings.{env.EnvironmentName}.json", optional: true, reloadOnChange: true);
                 });
             })
-            .ConfigureWebHostDefaults(webBuilder =>
-            {
-                webBuilder.UseStartup<Startup>();
-            })
             .ConfigureLogging((HostBuilderContext context, ILoggingBuilder logging) =>
             {
                 var enableFileLog = (bool)context.Configuration.GetSection("EnableFileLog").Get(typeof(bool));
@@ -64,6 +65,11 @@ public class Program
                 {
                     logging.ClearProviders();
                     logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
+                    logging.AddConsole();
                 }
+            })
+            .ConfigureWebHostDefaults(webBuilder =>
+            {
+                webBuilder.UseStartup<Startup>();
             });
 }

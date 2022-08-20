@@ -2,17 +2,16 @@
 
 namespace Scorecard.QueryHandler
 {
-    public class HandlerBootstrapper : IWireUpDependencies
+    public class QueryHandlerBootstrapper : IWireUpDependencies
     {
         private readonly IRegisterDependencies container;
 
-        public HandlerBootstrapper(IRegisterDependencies container)
+        public QueryHandlerBootstrapper(IRegisterDependencies container)
         {
             this.container = container;
         }
         public virtual void WireUp()
         {
-            //container.Register(typeof(SaveContactHandler));
             container.Register(typeof(ServiceLoginQueryHandler));
         }
 
