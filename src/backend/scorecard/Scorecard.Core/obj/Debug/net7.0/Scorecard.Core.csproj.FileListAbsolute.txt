@@ -10,3 +10,6 @@ F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Core\obj\Debug\net7.0\Sco
 F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Core\obj\Debug\net7.0\refint\Scorecard.Core.dll
 F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Core\obj\Debug\net7.0\Scorecard.Core.pdb
 F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Core\obj\Debug\net7.0\ref\Scorecard.Core.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Core\bin\Debug\net7.0\Scorecard.Applicatioin.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Core\bin\Debug\net7.0\Scorecard.Applicatioin.pdb
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Core\obj\Debug\net7.0\Scorecard.Core.csproj.CopyComplete

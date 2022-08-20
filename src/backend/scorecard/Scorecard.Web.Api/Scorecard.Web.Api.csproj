@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReverseProxy.MemoryCache\Scorecard.MemoryCache.csproj" />
+    <ProjectReference Include="..\Scorecard.Applicatioin\Scorecard.Applicatioin.csproj" />
+    <ProjectReference Include="..\Scorecard.Business\Scorecard.Business.csproj" />
+    <ProjectReference Include="..\Scorecard.CommandHandler\Scorecard.CommandHandler.csproj" />
+    <ProjectReference Include="..\Scorecard.Core\Scorecard.Core.csproj" />
+    <ProjectReference Include="..\Scorecard.Data\Scorecard.Data.csproj" />
+    <ProjectReference Include="..\Scorecard.QueryHandler\Scorecard.QueryHandler.csproj" />
+    <ProjectReference Include="..\Scorecard.Validators\Scorecard.Validators.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Scorecard.Management.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
