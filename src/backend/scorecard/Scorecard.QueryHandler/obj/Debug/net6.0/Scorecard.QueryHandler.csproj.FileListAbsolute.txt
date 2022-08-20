@@ -1,0 +1,17 @@
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.QueryHandler\bin\Debug\net6.0\Scorecard.QueryHandler.deps.json
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.QueryHandler\bin\Debug\net6.0\Scorecard.QueryHandler.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.QueryHandler\bin\Debug\net6.0\Scorecard.QueryHandler.pdb
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.QueryHandler\bin\Debug\net6.0\Scorecard.Applicatioin.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.QueryHandler\bin\Debug\net6.0\Scorecard.Core.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.QueryHandler\bin\Debug\net6.0\Scorecard.Applicatioin.pdb
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.QueryHandler\bin\Debug\net6.0\Scorecard.Core.pdb
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.QueryHandler\obj\Debug\net6.0\Scorecard.QueryHandler.csproj.AssemblyReference.cache
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.QueryHandler\obj\Debug\net6.0\Scorecard.QueryHandler.GeneratedMSBuildEditorConfig.editorconfig
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.QueryHandler\obj\Debug\net6.0\Scorecard.QueryHandler.AssemblyInfoInputs.cache
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.QueryHandler\obj\Debug\net6.0\Scorecard.QueryHandler.AssemblyInfo.cs
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.QueryHandler\obj\Debug\net6.0\Scorecard.QueryHandler.csproj.CoreCompileInputs.cache
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.QueryHandler\obj\Debug\net6.0\Scorecard.QueryHandler.csproj.CopyComplete
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.QueryHandler\obj\Debug\net6.0\Scorecard.QueryHandler.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.QueryHandler\obj\Debug\net6.0\refint\Scorecard.QueryHandler.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.QueryHandler\obj\Debug\net6.0\Scorecard.QueryHandler.pdb
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.QueryHandler\obj\Debug\net6.0\ref\Scorecard.QueryHandler.dll

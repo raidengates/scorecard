@@ -16,7 +16,7 @@ namespace Scorecard.Business
         }
         public override void WireUp()
         {
-            registerDependencies.RegisterNamed<IUserBusiness, UserBusiness>(Constants.TableSyncName.User.ToString(), LifeTimeScope.InstancePerLifeTimeScoped);
+            registerDependencies.Register<IUserBusiness, UserBusiness>();
         }
     }
 }

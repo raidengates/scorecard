@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XJxtr3NDWbNcjEPZBcP93G92ctVxQUGBOmWcWSsFzwq4KR0DoZRUU9mUB8wTaIqT4Pbv/b/5uU5NZWxDM18KtQ==",
+  "dgSpecHash": "6y9Gys4H+MDdPJlbF385oqeZ+7cqR1SlC6BeRDvoEJ7qeFcl45fXyFm4Pd1sMdEUJcul7wRUhdGWfmvac3+p2w==",
   "success": true,
   "projectFilePath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj",
   "expectedPackageFiles": [
@@ -116,7 +116,10 @@
     "C:\\Users\\graid\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\graid\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\graid\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\graid\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\graid\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\graid\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.4\\microsoft.aspnetcore.app.ref.6.0.4.nupkg.sha512",
+    "C:\\Users\\graid\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.4\\microsoft.windowsdesktop.app.ref.6.0.4.nupkg.sha512",
+    "C:\\Users\\graid\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.4\\microsoft.netcore.app.ref.6.0.4.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,0 +1,12 @@
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Applicatioin\bin\Debug\net6.0\Scorecard.Applicatioin.deps.json
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Applicatioin\bin\Debug\net6.0\Scorecard.Applicatioin.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Applicatioin\bin\Debug\net6.0\Scorecard.Applicatioin.pdb
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Applicatioin\obj\Debug\net6.0\Scorecard.Applicatioin.csproj.AssemblyReference.cache
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Applicatioin\obj\Debug\net6.0\Scorecard.Applicatioin.GeneratedMSBuildEditorConfig.editorconfig
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Applicatioin\obj\Debug\net6.0\Scorecard.Applicatioin.AssemblyInfoInputs.cache
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Applicatioin\obj\Debug\net6.0\Scorecard.Applicatioin.AssemblyInfo.cs
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Applicatioin\obj\Debug\net6.0\Scorecard.Applicatioin.csproj.CoreCompileInputs.cache
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Applicatioin\obj\Debug\net6.0\Scorecard.Applicatioin.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Applicatioin\obj\Debug\net6.0\refint\Scorecard.Applicatioin.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Applicatioin\obj\Debug\net6.0\Scorecard.Applicatioin.pdb
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Applicatioin\obj\Debug\net6.0\ref\Scorecard.Applicatioin.dll

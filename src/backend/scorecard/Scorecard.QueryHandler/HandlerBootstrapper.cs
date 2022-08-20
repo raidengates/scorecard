@@ -12,7 +12,8 @@ namespace Scorecard.QueryHandler
         }
         public virtual void WireUp()
         {
-            //container.Register(typeof(ServiceLoginQueryHandler));
+            //container.Register(typeof(SaveContactHandler));
+            container.Register(typeof(ServiceLoginQueryHandler));
         }
 
         public List<Type> GetEventTypes()

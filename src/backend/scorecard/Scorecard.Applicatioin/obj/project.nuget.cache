@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "t5VMuNjUT4LItwbWACV6TJas+rK/1hcLtN4+bGsMYb71Uhrkh0fquWA2VakIPE8g11XY1pKU5eKDmo7NTDX7Qw==",
+  "dgSpecHash": "h6JiV8iIaHk9eZiw9z013FFDjuJzUFib+lUle6MrA5CtbzxBZfKkNj477IuZLOdmM6DtKpx1+4Ht+KcdnHd+zg==",
   "success": true,
   "projectFilePath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj",
   "expectedPackageFiles": [
@@ -55,7 +55,10 @@
     "C:\\Users\\graid\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\graid\\.nuget\\packages\\system.threading.tasks.extensions\\4.0.0\\system.threading.tasks.extensions.4.0.0.nupkg.sha512",
     "C:\\Users\\graid\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
-    "C:\\Users\\graid\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
+    "C:\\Users\\graid\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
+    "C:\\Users\\graid\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.4\\microsoft.aspnetcore.app.ref.6.0.4.nupkg.sha512",
+    "C:\\Users\\graid\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.4\\microsoft.windowsdesktop.app.ref.6.0.4.nupkg.sha512",
+    "C:\\Users\\graid\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.4\\microsoft.netcore.app.ref.6.0.4.nupkg.sha512"
   ],
   "logs": []
 }

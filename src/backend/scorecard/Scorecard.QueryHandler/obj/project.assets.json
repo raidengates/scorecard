@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net6.0": {
       "Autofac/6.4.0": {
         "type": "package",
         "dependencies": {
@@ -1649,7 +1649,7 @@
       },
       "Scorecard.Applicatioin/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Kledex": "2.5.1"
         },
@@ -1662,7 +1662,7 @@
       },
       "Scorecard.Core/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Autofac": "6.4.0",
           "BCrypt.Net-Next": "4.0.3",
@@ -6118,7 +6118,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    "net6.0": [
       "Scorecard.Applicatioin >= 1.0.0",
       "Scorecard.Core >= 1.0.0"
     ]
@@ -6145,15 +6145,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
             "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj": {
               "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj"
@@ -6171,8 +6171,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",
@@ -6183,6 +6183,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.4, 6.0.4]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.4, 6.0.4]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.4, 6.0.4]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

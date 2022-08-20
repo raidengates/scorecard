@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Rt89qcm4l1jL9oMFYSdznzbTvtR7cY625V/xM0jPLOg=",
+  "Source": "Scorecard.Web.Api",
+  "BasePath": "_content/Scorecard.Web.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
