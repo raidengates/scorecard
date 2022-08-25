@@ -6119,6 +6119,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Scorecard.Applicatioin >= 1.0.0",
       "Scorecard.Core >= 1.0.0"
     ]
   },
@@ -6154,6 +6155,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj": {
+              "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj"
+            },
             "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj": {
               "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj"
             }

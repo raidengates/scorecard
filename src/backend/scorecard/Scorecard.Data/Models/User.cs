@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Scorecard.Data.Models;
+﻿namespace Scorecard.Data.Models;
 public class User : ModelBase<Guid>
 {
     public User() : base(Guid.NewGuid())
@@ -19,4 +13,5 @@ public class User : ModelBase<Guid>
     public string Password { get; set; }
     public string ResetToken { get; set; }
     public List<Permission> Permissions { get; set; }
+    public List<Game> Games { get; set; }
 }

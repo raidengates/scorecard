@@ -19,15 +19,28 @@ namespace Scorecard.Web.Api.Controllers
         {
             _dispatcher = dispatcher;
         }
-
+      
         [HttpPost]
         [Route("create-game")]
-        [ProducesResponseType(typeof(ServiceLoginResult), (int)HttpStatusCode.OK)]
         [ProducesResponseType(typeof(string), (int)HttpStatusCode.BadRequest)]
         [Authorize(Role.User, Role.Admin)]
-        public async Task<IActionResult> ServiceLogin([FromBody] ServiceLoginQuery request)
+        public async Task<IActionResult> CreateGame([FromBody] CreateGameCommand request)
         {
-            ServiceLoginResult result = await _dispatcher.GetResultAsync(request);
+            request.Identity = Identity.Identity;
+            await _dispatcher.SendAsync(request);
+            return Ok();
+        }
+
+        [HttpPost]
+        [Route("get-board-game")]
+        [ProducesResponseType(typeof(ListResult<GameResult>), (int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(string), (int)HttpStatusCode.BadRequest)]
+        [Authorize(Role.User, Role.Admin)]
+        public async Task<IActionResult> Get([FromBody] GetBoardGameQuery request)
+        {
+            //GetBoardGameQuery
+            request.Identity = Identity.Identity;
+            var result = await _dispatcher.GetResultAsync(request);
             return Ok(result);
         }
 

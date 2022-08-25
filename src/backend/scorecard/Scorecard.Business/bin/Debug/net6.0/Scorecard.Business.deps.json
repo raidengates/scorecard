@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "Scorecard.Business/1.0.0": {
         "dependencies": {
+          "Scorecard.Applicatioin": "1.0.0",
           "Scorecard.Core": "1.0.0",
           "Scorecard.Data": "1.0.0"
         },

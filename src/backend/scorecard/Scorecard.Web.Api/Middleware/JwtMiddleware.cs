@@ -52,12 +52,13 @@ namespace Scorecard.Web.Api.Middleware
                 {
                     Expression<Func<User, bool>> predicate = _user => _user.Id == accountId;
                     var user = (await userRepository.Predicates(predicate)).FirstOrDefault();
-                    _userStore.ReloadUserCache(accountId, new ScorecardIdentity()
+                    userInfo = new ScorecardIdentity()
                     {
                         Email = user.Email,
-                        Identity =  user.Id,
+                        Identity = user.Id,
                         Roles = user.Permissions.Select(s => (int)s.Role).ToArray(),
-                    });
+                    };
+                    _userStore.ReloadUserCache(accountId, userInfo);
                 }
                 context.Items["AuthenticationCookie"] = userInfo;
             }

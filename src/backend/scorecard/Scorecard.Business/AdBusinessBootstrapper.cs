@@ -17,6 +17,7 @@ namespace Scorecard.Business
         public override void WireUp()
         {
             registerDependencies.Register<IUserBusiness, UserBusiness>();
+            registerDependencies.Register<IGameBusiness, GameBusiness>();
         }
     }
 }

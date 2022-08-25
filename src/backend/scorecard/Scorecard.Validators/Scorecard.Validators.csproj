@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Scorecard.Applicatioin\Scorecard.Applicatioin.csproj" />
     <ProjectReference Include="..\Scorecard.Core\Scorecard.Core.csproj" />
   </ItemGroup>
 

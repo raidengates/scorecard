@@ -17,11 +17,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Scorecard.Applicatioin\Scorecard.Applicatioin.csproj" />
+    <Folder Include="Extensions\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Extensions\" />
+    <ProjectReference Include="..\Scorecard.Applicatioin\Scorecard.Applicatioin.csproj" />
   </ItemGroup>
 
 </Project>

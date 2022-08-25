@@ -6,6 +6,7 @@ namespace Scorecard.Applicatioin.Queries
     }
     public class BaseQuery
     {
+        public Guid? Identity { get; set; }
         public int PageSize { get; set; } = 20;
         public int PageIndex { get; set; } = 1;
         public List<OrderBy> OrderBy { get; set; } = new List<OrderBy>();

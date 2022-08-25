@@ -13,6 +13,7 @@ namespace Scorecard.CommandHandler
         public virtual void WireUp()
         {
             container.Register(typeof(AccountCommandHandler));
+            container.Register(typeof(GameCommandHandler));
         }
 
         public List<Type> GetEventTypes()

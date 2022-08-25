@@ -14,8 +14,14 @@ namespace Scorecard.Validators
         {
             registerDependencies.Register<ICommandValidator<SignupCommand>, SignupValidator>(
                   new DependencyParameter("SignupCommand", "SignupValidator"));
+            registerDependencies.Register<ICommandValidator<CreateGameCommand>, CreateGameValidator>(
+             new DependencyParameter("CreateGameCommand", "CreateGameValidator"));
+
             registerDependencies.Register<IQueryValidator<ServiceLoginQuery>, ServiceLoginValidator>(
                  new DependencyParameter("ServiceLoginQuery", "ServiceLoginValidator"));
+            registerDependencies.Register<IQueryValidator<GetBoardGameQuery>, GetBoardGameValidator>(
+              new DependencyParameter("GetBoardGameQuery", "GetBoardGameValidator"));
+            
         }
     }
 }

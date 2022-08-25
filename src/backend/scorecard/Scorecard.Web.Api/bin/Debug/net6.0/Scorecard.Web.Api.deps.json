@@ -1415,6 +1415,7 @@
       },
       "Scorecard.Business/1.0.0": {
         "dependencies": {
+          "Scorecard.Applicatioin": "1.0.0",
           "Scorecard.Core": "1.0.0",
           "Scorecard.Data": "1.0.0"
         },
@@ -1475,6 +1476,7 @@
       },
       "Scorecard.Validators/1.0.0": {
         "dependencies": {
+          "Scorecard.Applicatioin": "1.0.0",
           "Scorecard.Core": "1.0.0"
         },
         "runtime": {
