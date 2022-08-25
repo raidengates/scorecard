@@ -1,9 +1,4 @@
-﻿using Scorecard.Core.Enum;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel;
 
 namespace Scorecard.Data.Models;
 public class Permission : ModelBase<Guid>
@@ -18,4 +13,12 @@ public class Permission : ModelBase<Guid>
     }
     public string Name { get; set; }
     public Role Role { get; set; }
+
+}
+public enum Role
+{
+    [Description("Admin Role")]
+    Admin,
+    [Description("User Role")]
+    User
 }

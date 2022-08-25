@@ -1,0 +1,17 @@
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.CommandHandler\obj\Debug\net6.0\Scorecard.CommandHandler.csproj.AssemblyReference.cache
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.CommandHandler\obj\Debug\net6.0\Scorecard.CommandHandler.GeneratedMSBuildEditorConfig.editorconfig
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.CommandHandler\obj\Debug\net6.0\Scorecard.CommandHandler.AssemblyInfoInputs.cache
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.CommandHandler\obj\Debug\net6.0\Scorecard.CommandHandler.AssemblyInfo.cs
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.CommandHandler\obj\Debug\net6.0\Scorecard.CommandHandler.csproj.CoreCompileInputs.cache
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.CommandHandler\bin\Debug\net6.0\Scorecard.CommandHandler.deps.json
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.CommandHandler\bin\Debug\net6.0\Scorecard.CommandHandler.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.CommandHandler\bin\Debug\net6.0\Scorecard.CommandHandler.pdb
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.CommandHandler\bin\Debug\net6.0\Scorecard.Applicatioin.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.CommandHandler\bin\Debug\net6.0\Scorecard.Core.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.CommandHandler\bin\Debug\net6.0\Scorecard.Core.pdb
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.CommandHandler\bin\Debug\net6.0\Scorecard.Applicatioin.pdb
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.CommandHandler\obj\Debug\net6.0\Scorecard.CommandHandler.csproj.CopyComplete
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.CommandHandler\obj\Debug\net6.0\Scorecard.CommandHandler.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.CommandHandler\obj\Debug\net6.0\refint\Scorecard.CommandHandler.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.CommandHandler\obj\Debug\net6.0\Scorecard.CommandHandler.pdb
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.CommandHandler\obj\Debug\net6.0\ref\Scorecard.CommandHandler.dll

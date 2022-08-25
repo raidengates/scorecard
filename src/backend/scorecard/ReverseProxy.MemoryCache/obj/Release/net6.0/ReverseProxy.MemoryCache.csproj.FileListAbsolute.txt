@@ -1,0 +1,12 @@
+F:\Workspace\ReverseProxy\ReverseProxy\ReverseProxy.MemoryCache\bin\Release\net6.0\ReverseProxy.MemoryCache.deps.json
+F:\Workspace\ReverseProxy\ReverseProxy\ReverseProxy.MemoryCache\bin\Release\net6.0\ReverseProxy.MemoryCache.dll
+F:\Workspace\ReverseProxy\ReverseProxy\ReverseProxy.MemoryCache\bin\Release\net6.0\ReverseProxy.MemoryCache.pdb
+F:\Workspace\ReverseProxy\ReverseProxy\ReverseProxy.MemoryCache\obj\Release\net6.0\ReverseProxy.MemoryCache.csproj.AssemblyReference.cache
+F:\Workspace\ReverseProxy\ReverseProxy\ReverseProxy.MemoryCache\obj\Release\net6.0\ReverseProxy.MemoryCache.GeneratedMSBuildEditorConfig.editorconfig
+F:\Workspace\ReverseProxy\ReverseProxy\ReverseProxy.MemoryCache\obj\Release\net6.0\ReverseProxy.MemoryCache.AssemblyInfoInputs.cache
+F:\Workspace\ReverseProxy\ReverseProxy\ReverseProxy.MemoryCache\obj\Release\net6.0\ReverseProxy.MemoryCache.AssemblyInfo.cs
+F:\Workspace\ReverseProxy\ReverseProxy\ReverseProxy.MemoryCache\obj\Release\net6.0\ReverseProxy.MemoryCache.csproj.CoreCompileInputs.cache
+F:\Workspace\ReverseProxy\ReverseProxy\ReverseProxy.MemoryCache\obj\Release\net6.0\ReverseProxy.MemoryCache.dll
+F:\Workspace\ReverseProxy\ReverseProxy\ReverseProxy.MemoryCache\obj\Release\net6.0\refint\ReverseProxy.MemoryCache.dll
+F:\Workspace\ReverseProxy\ReverseProxy\ReverseProxy.MemoryCache\obj\Release\net6.0\ReverseProxy.MemoryCache.pdb
+F:\Workspace\ReverseProxy\ReverseProxy\ReverseProxy.MemoryCache\obj\Release\net6.0\ref\ReverseProxy.MemoryCache.dll

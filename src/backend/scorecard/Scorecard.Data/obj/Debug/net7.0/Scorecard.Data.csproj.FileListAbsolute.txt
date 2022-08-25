@@ -13,3 +13,5 @@ F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Data\obj\Debug\net7.0\Sco
 F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Data\obj\Debug\net7.0\refint\Scorecard.Data.dll
 F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Data\obj\Debug\net7.0\Scorecard.Data.pdb
 F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Data\obj\Debug\net7.0\ref\Scorecard.Data.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Data\bin\Debug\net7.0\Scorecard.Applicatioin.dll
+F:\Workspace\scorecard\src\backend\scorecard\Scorecard.Data\bin\Debug\net7.0\Scorecard.Applicatioin.pdb
