@@ -5,3 +5,9 @@ src/backend/scorecard/.vs/scorecard/FileContentIndex/62fa6eab-2748-49a5-8508-959
 src/backend/scorecard/.vs/scorecard/FileContentIndex/979f642e-b3fa-4745-8895-62976cc54863.vsidx
 src/backend/scorecard/.vs/scorecard/FileContentIndex/e8563f9a-48e0-42a3-88c8-cbc363a333cf.vsidx
 src/backend/scorecard/.vs/scorecard/FileContentIndex/read.lock
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
