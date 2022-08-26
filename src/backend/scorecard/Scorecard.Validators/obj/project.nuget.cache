@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H1QY7gZwpZGzLWiImET5wTrXBV8GbGYNCFNvq93NLSCd+Xsbh457GUXay6ws+Ejh5HT5utO3P95XpY45QGZOdg==",
+  "dgSpecHash": "64udCuNj4+zL+sR57Vel7e3WF2BJGnsf4pi425C/j0ulkmsKaJtU8ogsAfr9kr1rdYz5Bk5on5JHpKNQ8uS4PQ==",
   "success": true,
-  "projectFilePath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Validators\\Scorecard.Validators.csproj",
+  "projectFilePath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Validators\\Scorecard.Validators.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\graid\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\graid\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
@@ -116,10 +116,7 @@
     "C:\\Users\\graid\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\graid\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\graid\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\graid\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\graid\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.4\\microsoft.aspnetcore.app.ref.6.0.4.nupkg.sha512",
-    "C:\\Users\\graid\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.4\\microsoft.windowsdesktop.app.ref.6.0.4.nupkg.sha512",
-    "C:\\Users\\graid\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.4\\microsoft.netcore.app.ref.6.0.4.nupkg.sha512"
+    "C:\\Users\\graid\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

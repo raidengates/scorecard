@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Web.Api\\Scorecard.Web.Api.csproj": {}
+    "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Web.Api\\Scorecard.Web.Api.csproj": {}
   },
   "projects": {
-    "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\ReverseProxy.MemoryCache\\Scorecard.MemoryCache.csproj": {
+    "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\ReverseProxy.MemoryCache\\Scorecard.MemoryCache.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\ReverseProxy.MemoryCache\\Scorecard.MemoryCache.csproj",
+        "projectUniqueName": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\ReverseProxy.MemoryCache\\Scorecard.MemoryCache.csproj",
         "projectName": "Scorecard.MemoryCache",
-        "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\ReverseProxy.MemoryCache\\Scorecard.MemoryCache.csproj",
+        "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\ReverseProxy.MemoryCache\\Scorecard.MemoryCache.csproj",
         "packagesPath": "C:\\Users\\graid\\.nuget\\packages\\",
-        "outputPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\ReverseProxy.MemoryCache\\obj\\",
+        "outputPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\ReverseProxy.MemoryCache\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,41 +56,28 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.4.22252.9\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj": {
+    "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj",
+        "projectUniqueName": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj",
         "projectName": "Scorecard.Applicatioin",
-        "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj",
+        "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj",
         "packagesPath": "C:\\Users\\graid\\.nuget\\packages\\",
-        "outputPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\obj\\",
+        "outputPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -104,6 +92,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -133,41 +122,28 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.4.22252.9\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Business\\Scorecard.Business.csproj": {
+    "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Business\\Scorecard.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Business\\Scorecard.Business.csproj",
+        "projectUniqueName": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Business\\Scorecard.Business.csproj",
         "projectName": "Scorecard.Business",
-        "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Business\\Scorecard.Business.csproj",
+        "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Business\\Scorecard.Business.csproj",
         "packagesPath": "C:\\Users\\graid\\.nuget\\packages\\",
-        "outputPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Business\\obj\\",
+        "outputPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -182,20 +158,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj": {
-                "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj"
+              "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj": {
+                "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj"
               },
-              "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj": {
-                "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj"
+              "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj": {
+                "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj"
               },
-              "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Data\\Scorecard.Data.csproj": {
-                "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Data\\Scorecard.Data.csproj"
+              "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Data\\Scorecard.Data.csproj": {
+                "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Data\\Scorecard.Data.csproj"
               }
             }
           }
@@ -215,41 +192,28 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.4.22252.9\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.CommandHandler\\Scorecard.CommandHandler.csproj": {
+    "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.CommandHandler\\Scorecard.CommandHandler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.CommandHandler\\Scorecard.CommandHandler.csproj",
+        "projectUniqueName": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.CommandHandler\\Scorecard.CommandHandler.csproj",
         "projectName": "Scorecard.CommandHandler",
-        "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.CommandHandler\\Scorecard.CommandHandler.csproj",
+        "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.CommandHandler\\Scorecard.CommandHandler.csproj",
         "packagesPath": "C:\\Users\\graid\\.nuget\\packages\\",
-        "outputPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.CommandHandler\\obj\\",
+        "outputPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.CommandHandler\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -264,14 +228,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj": {
-                "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj"
+              "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj": {
+                "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj"
               }
             }
           }
@@ -291,41 +256,28 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.4.22252.9\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj": {
+    "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj",
+        "projectUniqueName": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj",
         "projectName": "Scorecard.Core",
-        "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj",
+        "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj",
         "packagesPath": "C:\\Users\\graid\\.nuget\\packages\\",
-        "outputPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\obj\\",
+        "outputPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -340,14 +292,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj": {
-                "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj"
+              "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj": {
+                "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj"
               }
             }
           }
@@ -397,41 +350,28 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.4.22252.9\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Data\\Scorecard.Data.csproj": {
+    "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Data\\Scorecard.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Data\\Scorecard.Data.csproj",
+        "projectUniqueName": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Data\\Scorecard.Data.csproj",
         "projectName": "Scorecard.Data",
-        "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Data\\Scorecard.Data.csproj",
+        "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Data\\Scorecard.Data.csproj",
         "packagesPath": "C:\\Users\\graid\\.nuget\\packages\\",
-        "outputPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Data\\obj\\",
+        "outputPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -446,14 +386,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj": {
-                "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj"
+              "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj": {
+                "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj"
               }
             }
           }
@@ -487,41 +428,28 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.4.22252.9\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.QueryHandler\\Scorecard.QueryHandler.csproj": {
+    "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.QueryHandler\\Scorecard.QueryHandler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.QueryHandler\\Scorecard.QueryHandler.csproj",
+        "projectUniqueName": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.QueryHandler\\Scorecard.QueryHandler.csproj",
         "projectName": "Scorecard.QueryHandler",
-        "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.QueryHandler\\Scorecard.QueryHandler.csproj",
+        "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.QueryHandler\\Scorecard.QueryHandler.csproj",
         "packagesPath": "C:\\Users\\graid\\.nuget\\packages\\",
-        "outputPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.QueryHandler\\obj\\",
+        "outputPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.QueryHandler\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -536,17 +464,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj": {
-                "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj"
+              "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj": {
+                "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj"
               },
-              "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj": {
-                "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj"
+              "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj": {
+                "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj"
               }
             }
           }
@@ -566,41 +495,28 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.4.22252.9\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Validators\\Scorecard.Validators.csproj": {
+    "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Validators\\Scorecard.Validators.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Validators\\Scorecard.Validators.csproj",
+        "projectUniqueName": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Validators\\Scorecard.Validators.csproj",
         "projectName": "Scorecard.Validators",
-        "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Validators\\Scorecard.Validators.csproj",
+        "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Validators\\Scorecard.Validators.csproj",
         "packagesPath": "C:\\Users\\graid\\.nuget\\packages\\",
-        "outputPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Validators\\obj\\",
+        "outputPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Validators\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -615,17 +531,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj": {
-                "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj"
+              "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj": {
+                "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj"
               },
-              "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj": {
-                "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj"
+              "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj": {
+                "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj"
               }
             }
           }
@@ -645,41 +562,28 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.4.22252.9\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Web.Api\\Scorecard.Web.Api.csproj": {
+    "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Web.Api\\Scorecard.Web.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Web.Api\\Scorecard.Web.Api.csproj",
+        "projectUniqueName": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Web.Api\\Scorecard.Web.Api.csproj",
         "projectName": "Scorecard.Web.Api",
-        "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Web.Api\\Scorecard.Web.Api.csproj",
+        "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Web.Api\\Scorecard.Web.Api.csproj",
         "packagesPath": "C:\\Users\\graid\\.nuget\\packages\\",
-        "outputPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Web.Api\\obj\\",
+        "outputPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Web.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -694,35 +598,36 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\ReverseProxy.MemoryCache\\Scorecard.MemoryCache.csproj": {
-                "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\ReverseProxy.MemoryCache\\Scorecard.MemoryCache.csproj"
+              "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\ReverseProxy.MemoryCache\\Scorecard.MemoryCache.csproj": {
+                "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\ReverseProxy.MemoryCache\\Scorecard.MemoryCache.csproj"
               },
-              "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj": {
-                "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj"
+              "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj": {
+                "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Applicatioin\\Scorecard.Applicatioin.csproj"
               },
-              "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Business\\Scorecard.Business.csproj": {
-                "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Business\\Scorecard.Business.csproj"
+              "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Business\\Scorecard.Business.csproj": {
+                "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Business\\Scorecard.Business.csproj"
               },
-              "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.CommandHandler\\Scorecard.CommandHandler.csproj": {
-                "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.CommandHandler\\Scorecard.CommandHandler.csproj"
+              "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.CommandHandler\\Scorecard.CommandHandler.csproj": {
+                "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.CommandHandler\\Scorecard.CommandHandler.csproj"
               },
-              "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj": {
-                "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj"
+              "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj": {
+                "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Core\\Scorecard.Core.csproj"
               },
-              "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Data\\Scorecard.Data.csproj": {
-                "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Data\\Scorecard.Data.csproj"
+              "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Data\\Scorecard.Data.csproj": {
+                "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Data\\Scorecard.Data.csproj"
               },
-              "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.QueryHandler\\Scorecard.QueryHandler.csproj": {
-                "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.QueryHandler\\Scorecard.QueryHandler.csproj"
+              "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.QueryHandler\\Scorecard.QueryHandler.csproj": {
+                "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.QueryHandler\\Scorecard.QueryHandler.csproj"
               },
-              "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Validators\\Scorecard.Validators.csproj": {
-                "projectPath": "F:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Validators\\Scorecard.Validators.csproj"
+              "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Validators\\Scorecard.Validators.csproj": {
+                "projectPath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.Validators\\Scorecard.Validators.csproj"
               }
             }
           }
@@ -768,28 +673,11 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.4, 6.0.4]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.4, 6.0.4]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -798,7 +686,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.4.22252.9\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
