@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NGB0W/llwJGu4EkuSB8nzy9gOMthrMzEKN84lrWcrWjoWLa4//NTRUF605IC310MdbRh7y8p0719Md+OXKu5dA==",
+  "dgSpecHash": "yq2bu2hqLLUTl7jwZp5WqDowT077lVoCADugMOuYywRSO5BnXnFEN/5CnHzYf9dRgRO9YvGE3dYMLzAMwpTPGw==",
   "success": true,
   "projectFilePath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\ReverseProxy.MemoryCache\\Scorecard.MemoryCache.csproj",
   "expectedPackageFiles": [

@@ -10,3 +10,15 @@ F:\Workspace\scorecard\src\backend\scorecard\ReverseProxy.MemoryCache\obj\Debug\
 F:\Workspace\scorecard\src\backend\scorecard\ReverseProxy.MemoryCache\obj\Debug\net6.0\refint\Scorecard.MemoryCache.dll
 F:\Workspace\scorecard\src\backend\scorecard\ReverseProxy.MemoryCache\obj\Debug\net6.0\Scorecard.MemoryCache.pdb
 F:\Workspace\scorecard\src\backend\scorecard\ReverseProxy.MemoryCache\obj\Debug\net6.0\ref\Scorecard.MemoryCache.dll
+D:\Workspace\scorecard\src\backend\scorecard\ReverseProxy.MemoryCache\bin\Debug\net6.0\Scorecard.MemoryCache.deps.json
+D:\Workspace\scorecard\src\backend\scorecard\ReverseProxy.MemoryCache\bin\Debug\net6.0\Scorecard.MemoryCache.dll
+D:\Workspace\scorecard\src\backend\scorecard\ReverseProxy.MemoryCache\bin\Debug\net6.0\Scorecard.MemoryCache.pdb
+D:\Workspace\scorecard\src\backend\scorecard\ReverseProxy.MemoryCache\obj\Debug\net6.0\Scorecard.MemoryCache.csproj.AssemblyReference.cache
+D:\Workspace\scorecard\src\backend\scorecard\ReverseProxy.MemoryCache\obj\Debug\net6.0\Scorecard.MemoryCache.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\scorecard\src\backend\scorecard\ReverseProxy.MemoryCache\obj\Debug\net6.0\Scorecard.MemoryCache.AssemblyInfoInputs.cache
+D:\Workspace\scorecard\src\backend\scorecard\ReverseProxy.MemoryCache\obj\Debug\net6.0\Scorecard.MemoryCache.AssemblyInfo.cs
+D:\Workspace\scorecard\src\backend\scorecard\ReverseProxy.MemoryCache\obj\Debug\net6.0\Scorecard.MemoryCache.csproj.CoreCompileInputs.cache
+D:\Workspace\scorecard\src\backend\scorecard\ReverseProxy.MemoryCache\obj\Debug\net6.0\Scorecard.MemoryCache.dll
+D:\Workspace\scorecard\src\backend\scorecard\ReverseProxy.MemoryCache\obj\Debug\net6.0\refint\Scorecard.MemoryCache.dll
+D:\Workspace\scorecard\src\backend\scorecard\ReverseProxy.MemoryCache\obj\Debug\net6.0\Scorecard.MemoryCache.pdb
+D:\Workspace\scorecard\src\backend\scorecard\ReverseProxy.MemoryCache\obj\Debug\net6.0\ref\Scorecard.MemoryCache.dll

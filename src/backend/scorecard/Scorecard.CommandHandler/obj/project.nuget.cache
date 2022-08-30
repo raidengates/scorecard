@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3eKcNd3y3S3gcKXKgKdlMc9/vG1KSIRPBNxC5sSmYSzAOMd14Q84b6mEgVs+8jgBlk2bnoiPMxFTzWGZNE5F8w==",
+  "dgSpecHash": "aC4BzddcRBzvRZRXvO0fSxw8Z+yTFRKXlinvEQfxl4G6blQaXk/9baLKwTFYwzLoZNKLs2dUHNsN9I2QhyOqLQ==",
   "success": true,
   "projectFilePath": "D:\\Workspace\\scorecard\\src\\backend\\scorecard\\Scorecard.CommandHandler\\Scorecard.CommandHandler.csproj",
   "expectedPackageFiles": [
